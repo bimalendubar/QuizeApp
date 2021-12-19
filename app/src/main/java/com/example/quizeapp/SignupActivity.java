@@ -111,7 +111,7 @@ public class SignupActivity extends AppCompatActivity {
                 dialog.dismiss();
             }
         });
-        builder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("y", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 finishAffinity();
