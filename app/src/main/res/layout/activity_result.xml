@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".resultActivity.ResultActivity">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_above="@+id/result_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_icon_trophy_award_cup"
+
+        />
+    <TextView
+        android:id="@+id/result_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="RESULT"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:id="@+id/ansPreview_id"
+        android:layout_below="@+id/result_id"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:textAlignment="viewStart"
+        style="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:text="Preview"
+        android:textSize="16dp"
+        />
+
+
+</RelativeLayout>
